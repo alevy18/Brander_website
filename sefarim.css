@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+body{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100%;
+    min-width: 1024px;
+    font-size: large;
+    font-weight: bold;
+    background-image: url("content/books.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom:  20px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+img{
+    width: 240px;
+    height: 360px;
+    border: 5px solid silver;
+}
+
+li{
+    display: inline-block;
+    margin: 25px;
+}
